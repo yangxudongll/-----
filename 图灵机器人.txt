@@ -1,0 +1,12 @@
+api: cd3d24561f744546a748bb790db3e52e
+
+≈„¡ƒ≥Ã–Ú£∫
+from wxpy import *
+bot=Bot(cache_path=True)
+my_friend=bot.friends().search('√√')[0]
+tuling=Tuling(api_key='cd3d24561f744546a748bb790db3e52e')
+@bot.register(my_friend)
+def reply_my_friend(msg):
+    tuling.do_reply(msg)
+
+embed()
