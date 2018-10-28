@@ -1,0 +1,10 @@
+#自动回复消息
+@bot.register()           #注册消息
+def reply_msg(msg):
+    msg.reply(u'有事不在')
+embed()
+
+#打印消息
+@bot.register()
+def print_msg(msg):
+	print(msg)
